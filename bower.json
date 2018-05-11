@@ -1,17 +1,17 @@
 {
-  "name": "bitcore-wallet-client-dash",
+  "name": "socialsendcore-wallet-client",
   "main": "index.js",
   "version": "2.1.1",
-  "homepage": "https://github.com/dashpay/bitcore-wallet-client-dash",
+  "homepage": "https://github.com/SocialSend/socialsendcore-wallet-client",
   "authors": ["BitPay Inc"],
-  "description": "Client for bitcore-wallet-service-dash",
+  "description": "Client for socialsendcore-wallet-service",
   "keywords": [
-    "dash",
-    "copay-dash",
+    "socialsend",
+    "copay",
     "multisig",
     "wallet",
     "client",
-    "bitcore-dash"
+    "socialsendcore"
   ],
   "ignore": [
     "**/.*",

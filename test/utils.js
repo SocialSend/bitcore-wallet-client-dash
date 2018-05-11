@@ -4,7 +4,7 @@ var _ = require('lodash');
 var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
-var Bitcore = require('bitcore-lib-dash');
+var Bitcore = require('socialsendcore-lib');
 
 var Utils = require('../lib/common/utils');
 
@@ -233,7 +233,7 @@ describe('Utils', function() {
       var values = [
         null,
         123,
-        '123',
+        'x123',
       ];
       _.each(values, function(value) {
         var valid = true;
